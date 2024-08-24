@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 public class VacationServiceTest {
 
     @Test
-    void shouldIWorkFirst() {
+    void monthToRelaxFirst() {
         VacationService service = new VacationService();
 
         // подготавливаем данные:
@@ -25,7 +25,7 @@ public class VacationServiceTest {
     }
 
     @Test
-    void shouldIWorkSecond() {
+    void monthToRelaxSecond() {
         VacationService service = new VacationService();
 
         // подготавливаем данные:
